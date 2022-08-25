@@ -1,3 +1,5 @@
+# file is complete for starting and stopping the server. need to add buttons for darkmode and voice.
+# could also do something for commands. well look into it later.
 import tkinter as tk
 
 window = tk.Tk()
