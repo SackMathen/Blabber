@@ -1,6 +1,10 @@
-# file is complete for starting and stopping the server. need to add buttons for darkmode and voice.
+# file is complete for starting and stopping the server. need to add buttons for dark mode and voice.
 # could also do something for commands. well look into it later.
 import tkinter as tk
+import socket
+import threading
+
+# start of the server GUI
 
 window = tk.Tk()
 window.title("Sever")
@@ -51,6 +55,33 @@ def stop_server():
     btnStart.config(state=tk.NORMAL)
     btnStop.config(state=tk.DISABLED)
 
+# end of server GUI
 
 window.mainloop()
 
+
+# beginning of the server backend.
+server = None
+HOST_ADDR = "0.0.0.0"
+HOST_PORT = 8080
+client_name = " "
+clients = []
+clients_names = []
+
+
+# Start server function
+def start_server():
+    global server, HOST_ADDR, HOST_PORT # code is fine without this
+    btnStart.config(state=tk.DISABLED)
+    btnStop.config(state=tk.NORMAL)
+
+    server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    server.bind((HOST_ADDR, HOST_PORT))
+    server.listen(5)  # server is listening for client connection
+
+    threading._start_new_thread(accept_clients, (server, " "))
+
+    lblHost["text"] = "Host: " + HOST_ADDR
+    lblPort["text"] = "Port: " + str(HOST_PORT)
+
+# end of start server function
