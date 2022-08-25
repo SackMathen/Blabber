@@ -1,8 +1,10 @@
 # Security Policy
 
+Please report all bugs to the github issues page as we are still in development.
+
 ## Supported Versions
 
-version 1 is currently in development and this page will be updated to reflect its status.
+Version 1 is currently in development and this page will be updated to reflect its status.
 
 | Version | Supported          |
 | ------- | ------------------ |
