@@ -4,6 +4,7 @@ import tkinter as tk
 import socket
 import threading
 
+
 # start of the server GUI
 
 window = tk.Tk()
@@ -61,6 +62,7 @@ window.mainloop()
 
 
 # beginning of the server backend.
+
 server = None
 HOST_ADDR = "0.0.0.0"
 HOST_PORT = 8080
