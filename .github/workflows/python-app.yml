@@ -15,7 +15,7 @@ permissions:
 jobs:
   build:
 
-    runs-on: Anything that has access to python
+    runs-on: self-hosted
 
     steps:
     - uses: actions/checkout@v3
