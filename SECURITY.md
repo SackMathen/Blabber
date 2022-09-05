@@ -7,9 +7,9 @@ Please report all bugs to the github issues page as we are still in development.
 Version 1 is currently in development and this page will be updated to reflect its status.
 
 | Version | Supported          |
-| ------- | ------------------ |
+| ------- |--------------------|
 | 1.0.0   | :x:                |
-| 0.0.1   | :x:                |
+| 0.0.1   | :white_check_mark: |
 | 0.0.2   | :x:                |
 | < 1     | :x:                |
 
