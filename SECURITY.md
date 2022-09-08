@@ -1,17 +1,17 @@
 # Security Policy
 
-Please report all bugs to the github issues page as we are still in development.
+Please report all bugs to the GitHub issues page as we are still in development.
 
 ## Supported Versions
 
 Version 1 is currently in development and this page will be updated to reflect its status.
 
 | Version | Supported          |
-| ------- |--------------------|
-| 1.0.0   | :x:                |
-| 0.0.1   | :white_check_mark: |
-| 0.0.2   | :x:                |
-| < 1     | :x:                |
+|---------|--------------------|
+| 1.0.0   | :white_check_mark: |
+| 1.5.0   | :x:                |
+| 2.0.0   | :x:                |
+| < 2     | :x:                |
 
 ## Reporting a Vulnerability
 
