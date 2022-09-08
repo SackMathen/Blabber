@@ -59,7 +59,8 @@ top.protocol("WM_DELETE_WINDOW", on_closing)
 # this is for the window to have the user input the address and port
 # that they need and then this will also go to a sql database of
 # usernames and logins so that they can have their own color and stuff.
-'''def routing_window():
+'''
+def routing_window():
     connection = Tk()
     connection.geometry("")
 '''
