@@ -66,6 +66,8 @@ def routing_window():
 '''
 HOST = input('Enter host: ')
 PORT = input('Enter port: ')
+# this needs to become -> enter host -> connects to correct port -> user enters username and password ->
+# "Welcome to the chatroom!"
 if not PORT:
     PORT = 33000
 else:
