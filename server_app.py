@@ -54,6 +54,8 @@ ADDR = (HOST, PORT)
 SERVER = socket(AF_INET, SOCK_STREAM)
 SERVER.bind(ADDR)
 
+
+
 if __name__ == "__main__":
     SERVER.listen(5)
     print("Waiting for connection...")

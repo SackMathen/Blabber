@@ -55,6 +55,14 @@ top.protocol("WM_DELETE_WINDOW", on_closing)
 # ----Now comes the sockets part----
 # Also need to make a gui portion to transition from entering host address
 # and port to displaying the chat once connected.
+'''break'''
+# this is for the window to have the user input the address and port
+# that they need and then this will also go to a sql database of
+# usernames and logins so that they can have their own color and stuff.
+'''def routing_window():
+    connection = Tk()
+    connection.geometry("")
+'''
 HOST = input('Enter host: ')
 PORT = input('Enter port: ')
 if not PORT:
@@ -70,4 +78,5 @@ client_socket.connect(ADDR)
 
 receive_thread = Thread(target=receive)
 receive_thread.start()
+
 tkinter.mainloop()  # Starts GUI execution.
