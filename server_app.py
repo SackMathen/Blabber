@@ -8,6 +8,7 @@ mydb = mysql.connector.connect(
     host="something",
     user="some user",
     password="some password"
+    database="some database"
 )
 
 
