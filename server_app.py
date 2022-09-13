@@ -2,6 +2,13 @@
 """Server for multithreading (asynchronous) chat application."""
 from socket import AF_INET, socket, SOCK_STREAM
 from threading import Thread
+import mysql.connector
+
+mydb = mysql.connector.connect(
+    host="something",
+    user="some user",
+    password="some password"
+)
 
 
 def accept_incoming_connections():
