@@ -4,6 +4,7 @@ from socket import AF_INET, socket, SOCK_STREAM
 from threading import Thread
 import mysql.connector
 
+# this creates a database connection and allows the users to have a login with permissions.
 mydb = mysql.connector.connect(
     host="something",
     user="some user",
