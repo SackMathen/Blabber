@@ -1,15 +1,19 @@
 # for routing the users to their proper location.
 
 # def host_routing():
-#    if HOST == 'Chorus':
+#    if HOST == 'Blabber':
 #        print("Enter your Username and Password")
 #    if HOST == 'Starkville Happy Hour':
 #        print("Enter Your Username and password")
-#    if HOST == "Digital Playbook Tool":
+#    if HOST == 'Digital Playbook Tool':
 #        print("Enter Your Username and password")
-#    if HOST == "World Building Management System":
+#    if HOST == 'World Building Management System':
 #        print("Enter Your Username and password")
-#    if HOST =="MSU Advertising Website":
+#    if HOST == 'MSU Advertising Website':
+#        print("Enter Your Username and password")
+#    if HOST == 'msu3':
+#        print("Enter Your Username and password")
+#    if HOST == 'eduroam':
 #        print("Enter Your Username and password")
 
 im still trying to work this out.
